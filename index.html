@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <div class="">
+    <h1 id ="rules" >Intro & Rules</h1>
+    <p id = "english">Simon is an electronic game of memory skill invented by Ralph H Baer and Howard J. Morrison.
+  The device has four colored buttons, each producing a particular tone when it is pressed or activated by the device.<br /><br> The device creates a series of tones and lights and requires the user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Once the user fails or the time limit runs out, the game is over. </p>
+
+    <p id ="hindi">सिमोन राल्फ एच बेयर और हॉवर्ड जे मॉरिसन द्वारा आविष्कार किया गया स्मृति कौशल का एक इलेक्ट्रॉनिक गेम है।
+  डिवाइस में चार रंगीन बटन होते हैं, प्रत्येक एक विशेष टोन का उत्पादन करता है जब इसे डिवाइस द्वारा दबाया या सक्रिय किया जाता है।<br><br> डिवाइस सुर और रोशनी की एक श्रृंखला बनाता है और उपयोगकर्ता को अनुक्रम दोहराने की आवश्यकता होती है। यदि उपयोगकर्ता सफल होता है, तो श्रृंखला उत्तरोत्तर लंबी और अधिक जटिल हो जाती है। एक बार जब उपयोगकर्ता विफल हो जाता है या जाती है, तो खेल खत्म हो जाता है।
+  </p>
+
+    <button id = "change" type="button" name="button">हिंदी में पढ़ने के लिए</button>
+  </div>
+
+  <h1 id="levelTitle">Tap play to Start the game</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+      </div>
+
+      <div type="button" id="red" class="btn red">
+      </div>
+
+      <div type="button" id="yellow" class="btn green">
+      </div>
+
+      <div type="button" id="blue" class="btn red">
+
+      </div>
+      <div id="start">Play</div>
+
+
+    </div>
+<div id="score" style="color:deeppink;">Score: <span class="score" style="color:#8e1cb3c2">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span id="high_score">High Score:</span> <span class="high_score" style="color:#8e1cb3c2">0</span></div>
+    <div class="restart" type ="button">
+      Restart
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="game.js" type="text/javascript">
+
+ </script>
+</body>
+
+</html>

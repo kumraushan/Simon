@@ -1,0 +1,183 @@
+                  /*Html Tags*/
+body {
+  text-align: center;
+  background-color: mediumaquamarine;
+}
+
+div {
+    display: block;
+}
+
+                  /*Html Ids*/
+
+/*Game Rules*/
+#hindi,#english{
+  display: flex;
+  position:relative;
+  float: inherit;
+  margin: 0 10% ;
+  width: 80%;
+  text-align:justify;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size:1.3rem;
+  margin-bottom: 10px;
+
+}
+
+#english{
+  font-size: 1.5rem;
+}
+
+#rules{
+  display:inline-block;
+  float:left;
+  margin-left: 10%;
+  font-size:3rem;
+  font-weight: bold;
+}
+
+#change{
+  outline: 0;
+  width: 250px;
+  line-height: 60px;
+  border: 2px solid white;
+  border-radius: 25px;
+  color:crimson;
+  background-color: lightGreen;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  position: relative;
+  left:5px;
+  font-weight: bold;
+}
+
+/*Gameplay*/
+#levelTitle {
+  font-family: 'Roboto Mono', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2% 5% 2% 5%;
+
+  color: brown;
+}
+
+#green {
+    background-color: #00C853;
+    border-radius: 200px 0 0 0;
+    margin: 30px 15px 30px 30px;
+}
+
+#red {
+  background-color: #F44336;
+  border-radius: 0 200px 0 0;
+  margin: 30px 30px 30px 15px;
+}
+
+#blue {
+  background-color: #03A9F4;
+  border-radius: 0 0 200px 0;
+  margin: 0 30px 30px 15px;
+}
+
+#yellow {
+  background-color: #FFEB3B;
+  border-radius: 0 0 0 200px;
+  margin: 0 15px 30px 30px;
+}
+
+#green, #red, #yellow, #blue {
+    width: 155px;
+    height: 155px;
+    cursor: pointer;
+    box-shadow : inset 0 1px 3px rgba(0,0,0,0.12), inset 0 1px 2px rgba(0,0,0,0.24);
+}
+/*Javascript used Ids*/
+#start{
+  width:150px;
+  height: 150px;
+  line-height:150px;
+  position: relative;
+  left:125px;
+  bottom: 270px;
+  text-align: center;
+  background-color:white;
+  color:deeppink;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#score{
+
+    display: block;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #ffffff;
+    width: 100%;
+    left: 0%;
+    bottom: 5%;
+}
+                    /*Html Classes*/
+.container {
+  width:400px;
+  height:400px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 50px auto 50px auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.20), 0 7.5px 6px rgba(0,0,0,0.12);
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #000000;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 50px;
+
+}
+
+.blink{
+  opacity: 0.4;
+ box-shadow: inset 0 10px 20px rgba(0,0,0,0.25), inset 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.restart{
+  width: 150px;
+  line-height: 60px;
+  border: 2px solid white;
+  border-radius: 25px;
+  color:crimson;
+  background-color: lightGreen;
+  font-size: 2.3rem;
+  margin-top: 50px;
+  position: relative;
+  left:125px;
+  font-weight: bold;
+}
+
+.playAgain{
+  opacity: 0.6;
+ box-shadow: inset 0 10px 20px rgba(0,0,0,0.25), inset 0 5px 5px rgba(0,0,0,0.22);
+}
+
+@media (min-width:360px) and (max-width:500px) {
+  .container{
+    width:100%;
+  }
+}
