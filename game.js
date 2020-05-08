@@ -1,3 +1,5 @@
+alert("Please Use Earphone for better Experience\n\nबेहतर अनुभव के लिए इयरफोन का उपयोग करें");
+
 var userClickedPattern = [];
 
 var buttonColours = ["green", "red", "yellow", "blue" ];
